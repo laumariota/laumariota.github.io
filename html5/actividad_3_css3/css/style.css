@@ -1,0 +1,41 @@
+@import url('https://as2.ftcdn.net/v2/jpg/03/27/70/69/1000_F_327706916_WM3iLGjw9X7szFYYnk6oIGc4xRrGPd1l.jpg');
+
+body{
+    font-family:'Roboto', sans-serif;
+
+}
+.logo{
+    width:192px;
+    height:192px;
+    display:block;
+    margin:auto;
+    margin-bottom: 12px;;
+}
+
+h1{
+    text-align: center;
+    border: 2px solid #000;
+}
+#menu{
+    background-color: #209cd7;
+    text-align: center;
+    border: 2px solid black;
+    padding: 12px;
+    text-align: center;
+}
+
+.imagenes{
+
+    display: block;
+    text-align: center;
+    
+    
+}
+
+
+
+p{
+    background-color: #209cd7 ;
+    color: #fff;
+    padding: 16px;
+}
