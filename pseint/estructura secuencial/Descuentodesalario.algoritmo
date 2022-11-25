@@ -1,0 +1,10 @@
+Proceso Descuentodesalario
+	Definir salario,descuento,totaldevengado Como Real
+	salario<-30000000;
+	descuento<-salario*0.05;
+	totaldevengado<-salario-descuento;
+	escribir "el descuento es " descuento;
+	escribir "el total de vengado es " totaldevengado;
+	
+	
+FinProceso

@@ -1,0 +1,11 @@
+Proceso prestamo
+	definir pres,anual,mens,totalpagar Como Real;
+	escribir "ingrese el valor del prestamo";
+	leer pres
+	anual<-(pres*27)/100;
+	mens<-anual/12;
+	totalpagar<-pres+anual;
+	escribir " el total a pagar por el prestamo es ",totalpagar;
+	escribir " mensualmente pagara " mens
+	escribir "el total anual es " anual;
+FinProceso

@@ -1,0 +1,10 @@
+Proceso dobleytriple
+	definir num,doble,triple Como Entero
+	escribir "ingrese un numero";
+	leer num;
+	doble<-num*num
+	triple<-num*num+num
+	escribir "el doble o cuadrado de" num " es " doble;
+	escribir "el triple o cubo de " num " es " triple; 
+	
+FinProceso

@@ -1,0 +1,16 @@
+Proceso calculadora
+	Definir n1,n2 como enteros
+	Escribir "ingresar el 1er numero";
+	Leer n1;
+	Escribir "ingresar el 2do numero";
+	Leer n2
+	suma<-n1+n2
+	resta<-n1-n2
+	multiplicacion<-n1*n2
+	divicion<-n1/n2
+	Escribir " la suma de los dos numero es " suma;
+	Escribir " la resta de los dos numero es " resta;
+	Escribir " la multiplicacion de los dos numero es " multiplicacion;
+	Escribir " la divicion de los dos numeros es " divicion;
+	
+FinProceso

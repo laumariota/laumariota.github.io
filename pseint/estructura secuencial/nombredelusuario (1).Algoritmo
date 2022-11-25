@@ -1,0 +1,6 @@
+Proceso nombredelusuario
+	Definir nombre Como Caracter;
+	Escribir "introduzca su nombre";
+	Leer nombre;
+escribir "Buenos dias",nombre;
+FinProceso

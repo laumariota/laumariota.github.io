@@ -1,0 +1,9 @@
+Proceso raizcuadradayraizcubica
+	definir num,raizcuadrada,raizcubica Como real;
+	escribir "ingresar el numero ";
+	leer num;
+	raizcuadrada<-num^(1/2);
+	raizcubica<-num^(1/3);
+	escribir "la raiz cuadrada de " num " es " raizcuadrada 
+	escribir  "la raiz cubica de " num " es " raizcubica
+FinProceso

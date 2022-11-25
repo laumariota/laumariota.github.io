@@ -1,0 +1,10 @@
+Proceso compraydescuento
+	definir compra,descuento,pago Como Real
+	escribir "cual es descuento de su compra"
+	leer compra 
+	descuento<-compra/0.05 
+	pago<-descuento*compra
+	escribir " su descuento es de " descuento 
+	escribir "su compra es de " compra;
+	escribir " su pago es de " pago
+FinProceso

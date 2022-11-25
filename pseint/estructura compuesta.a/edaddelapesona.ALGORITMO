@@ -1,0 +1,25 @@
+Proceso edaddelapesona
+	definir edad Como Entero
+	escribir "<<<-EDAD->>>";
+	escribir "----------------------";
+	escribir "por favor digita la edad ";
+	leer edad;
+	Si edad<12 Entonces
+		escribir " eres un niño";
+	SiNo
+		Si edad>12 y edad<40 Entonces
+			escribir " eres un joven";
+		SiNo
+			Si edad>40 y edad<60  Entonces
+				escribir " eres un adulto";
+			SiNo
+				Si edad>60 Entonces
+					escribir " eres un adulto mayor";
+				SiNo
+					escribir "error";
+				Fin Si
+			Fin Si
+		Fin Si
+	Fin Si
+	
+FinProceso

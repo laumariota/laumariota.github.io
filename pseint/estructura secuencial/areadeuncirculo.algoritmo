@@ -1,0 +1,9 @@
+Proceso areadeuncirculo
+	Definir area,radio,p como real
+	p=31416;
+	Escribir "valor del circulo del radio";
+	Leer radio;
+	area<-p*radio*radio
+	Escribir "el area del circulo es " area;
+	
+FinProceso

@@ -1,0 +1,9 @@
+Proceso Perimetrodeunrectangulo
+	Definir base,altura,perimetro Como Real
+	Escribir "ingresar la base de un rectangulo";
+	Leer base;
+	Escribir "ingresar la altura  de un rectangulo";
+	Leer altura;
+	perimetro<-(base+altura)*2
+	Escribir " el perimetro del rectangilo es " perimetro;
+FinProceso

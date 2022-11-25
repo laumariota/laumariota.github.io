@@ -1,0 +1,14 @@
+Algoritmo  AlcuadradoDeDoaNumero
+	Definir n,Alcuadrado Como Entero;
+	
+	Escribir " Digite el 1er numero";
+	Leer n
+	Escribir "Digite el 2do numero";
+	Leer Alcuadrado
+	
+	Alcuadrado<-n*n;
+	
+	Escribir "El resultado de al cuadrado es " Alcuadrado;
+	
+	
+FinAlgoritmo

@@ -1,0 +1,7 @@
+Proceso conversiondedolarapesos
+	Definir dolar,peso,c Como Real
+	Escribir "ingresar un valor de dolar";
+	Leer dolar;
+	c<-dolar*4454
+	Escribir " la conversion es " c " Pesos";
+FinProceso

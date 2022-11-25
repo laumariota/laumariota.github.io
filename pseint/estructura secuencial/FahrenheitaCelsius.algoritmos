@@ -1,0 +1,7 @@
+Proceso FahrenheitaCelsius 
+	definir f,c Como Real;
+	escribir "cuantos grados fahrenheit convierte a celsius";
+	leer f;
+	c<-(f-32)*5/9
+	escribir "la conversion a grados de celsius es " c;
+FinProceso

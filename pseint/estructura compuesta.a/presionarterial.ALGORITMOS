@@ -1,0 +1,26 @@
+Proceso presionarterial
+	definir presion como entero;
+	escribir "digite la presion arterial";
+	leer presion;
+	Si presion<90 Entonces
+		escribir "la persona tiene la presion arterial baja";
+	SiNo
+		Si presion>90 y presion<120 Entonces
+			escribir "la persona tiene la presion arterial normal";
+		SiNo
+			Si  presion>120 y presion<139 Entonces
+				escribir "la persona tiene la presion arterial prehirpetencion";
+			SiNo
+				Si  presion>140 y presion<159 Entonces
+					escribir "la persona tiene la presion arterial alta:prehirpetencion fase 1";
+				SiNo
+					Si presion>160 Entonces
+						escribir "la persona tiene la presion arterial alta:prehirpetencion fase 2";
+					SiNo
+						escribir "por favor digite una presion arterial valida";
+					Fin Si
+				Fin Si
+			Fin Si
+		Fin Si
+	Fin Si
+FinProceso

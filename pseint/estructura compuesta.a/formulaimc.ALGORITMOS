@@ -1,0 +1,40 @@
+Proceso formulaimc
+	definir peso,estatura,imc como real;
+	escribir "<<<FORMULA>>>";
+	escribir "-------------";
+	escribir "por favor digite el peso de la persona";
+	leer peso;
+	escribir "por favor digite la estatura de la persona";
+	leer estatura;
+	imc<-peso/(estatura*2);
+	
+	Si imc<18.5 Entonces
+		escribir "la persona es de bajo peso";
+	SiNo
+		Si imc<18.5 y imc<24.9 Entonces
+			escribir "la persona es de peso normal";
+		SiNo
+			Si imc<25.0 y imc<29.9 Entonces
+				escribir "la persona es de sobre peso";
+			SiNo
+				Si  imc<30.0 y imc<34.9  Entonces
+					escribir "la persona es de obesidad I";
+				SiNo
+					Si imc<35.0 y imc<39.9  Entonces
+						escribir "la persona es de obesidad II";
+					SiNo
+						Si imc<40.0 y imc<49.9 Entonces
+							escribir "la persona es de obesidad III";
+						SiNo
+							Si imc>50 Entonces
+								escribir "la persona es de obesidad IV";
+							SiNo
+								escribir " por favor elija una opcion";
+							Fin Si
+						Fin Si
+					Fin Si
+				Fin Si
+			Fin Si
+		Fin Si
+	Fin Si
+FinProceso

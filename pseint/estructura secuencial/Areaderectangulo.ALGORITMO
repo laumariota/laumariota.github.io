@@ -1,0 +1,8 @@
+Proceso Areaderectangulo
+	Escribir "ingrese la base del rectangulo";
+	Leer base
+	Escribir "ingrese la altura del rectangulo";
+	Leer Altura
+	A<-base*Altura
+	Escribir "el resultado es " A;
+FinProceso

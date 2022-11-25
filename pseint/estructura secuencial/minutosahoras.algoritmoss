@@ -1,0 +1,7 @@
+Proceso minutosahoras
+	definir minutos,horas como real;
+	escribir "convertir de minutos a horas";
+	leer minutos;
+	horas<-minutos/60;
+	escribir minutos " minutos es " horas;
+FinProceso

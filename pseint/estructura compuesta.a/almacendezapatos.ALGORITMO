@@ -1,0 +1,38 @@
+Proceso almacendezapatos
+	definir cantidad,precio,total,operacion,descuento Como Real;
+	escribir "<<<ALMACEN DE DESCUENTO>>>";
+	escribir "--------------------------";
+	escribir "por favor digite la cantidad de zapatos: ";
+	leer cantidad; 
+	escribir "por favor digite el precio del zapato";
+	leer precio;
+	operacion<-precio*cantidad
+	
+	Si cantidad<10 Entonces
+		escribir "el cliente no tiene ningun descuentos";
+	SiNo
+		Si cantidad>10 y cantidad<20 Entonces
+			descuento<-operacion*0.10
+			escribir "el cliente tiene un 10% de descuento: " descuento " sobre su total de la compra";
+			total<-operacion-descuento;
+			escribir "el cliente debe pagar un total de $: " total;
+		SiNo
+			Si cantidad>20 y cantidad<30 Entonces
+				descuento<-operacion*0.20
+				escribir "el cliente tiene un 20% de descuento: " descuento " sobre su total de la compra";
+				total<-operacion-descuento;
+				escribir "el cliente debe pagar un total de $: " total;
+			SiNo
+				Si cantidad>30 Entonces
+					descuento<-operacion*0.40
+					escribir "el cliente tiene un 40% de descuento: " descuento " sobre su total de la compra";
+					total<-operacion-descuento;
+					escribir "el cliente debe pagar un total de $: " total;
+					
+				SiNo
+					escribir "por favor escriba una cantidad valida";
+				Fin Si
+			Fin Si
+		Fin Si
+	Fin Si
+FinProceso

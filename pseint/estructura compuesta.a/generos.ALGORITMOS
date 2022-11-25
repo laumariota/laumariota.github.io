@@ -1,0 +1,84 @@
+Proceso genero
+	definir op,edad como entero;
+	escribir "<<<genero>>>";
+	escribir "-------------";
+	escribir "1. hombre";
+	escribir "2. mujer";
+	escribir "3. salir";
+	escribir "por favor elija una opcion (1-3):";
+	leer op;
+	Segun op Hacer
+		1:
+			escribir "digite la edad ded del paciente ";
+			leer edad;
+			Si edad>11 y edad<14 Entonces
+				escribir "el paciente es masculino";
+				escribir "peso (kg): ", 45 ;
+				escribir "estratura (cm): ", 157;
+			SiNo
+				Si edad>15 y edad<18 Entonces
+					escribir "el paciente es hombre";
+					escribir "peso (kg): ", 66 ;
+					escribir "estratura (cm): ", 176;
+				SiNo
+					Si edad>19 y edad<24 Entonces
+						escribir "el paciente es masculino";
+						escribir "peso (kg): ", 72 ;
+						escribir "estratura (cm): ", 177;
+					SiNo
+						Si edad>25 y edad<50 Entonces
+							escribir "el paciente es masculino";
+							escribir "peso (kg): ", 79 ;
+							escribir "estratura (cm): ", 176;
+						SiNo
+							Si edad>51 Entonces
+								escribir "el paciente es masculino";
+								escribir "peso (kg): ", 77 ;
+								escribir "estratura (cm): ", 173;
+							SiNo
+								escribir "ERROR, por favor digita una edad valida";
+							Fin Si
+						Fin Si
+					Fin Si
+				Fin Si
+			Fin Si
+		2:
+			escribir "digite la edad ded del paciente ";
+			leer edad;
+			Si  edad>11 y edad<14 Entonces
+				escribir "el paciente es mujer";
+				escribir "peso (kg): ", 46;
+				escribir "estratura (cm): ", 157;
+			SiNo
+				Si  edad>15 y edad<18 Entonces
+					escribir "el paciente es mujer";
+					escribir "peso (kg): ", 55;
+					escribir "estratura (cm): ", 163;
+				SiNo
+					Si edad>19 y edad<24  Entonces
+						escribir "el paciente es mujer";
+						escribir "peso (kg): ", 58;
+						escribir "estratura (cm): ", 164;
+					SiNo
+						Si edad>25 y edad<50 Entonces
+							escribir "el paciente es mujer";
+							escribir "peso (kg): ", 63;
+							escribir "estratura (cm): ", 163;
+						SiNo
+							Si edad>51 Entonces
+								escribir "el paciente es masculino";
+								escribir "peso (kg): ", 65 ;
+								escribir "estratura (cm): ", 160;
+							SiNo
+								escribir "ERROR, por favor digita una edad valida";
+							Fin Si
+						Fin Si
+					Fin Si
+				Fin Si
+			Fin Si
+		3:
+			escribir " muchas gracia por particiár ";
+		De Otro Modo:
+			escribir "elija una opcion ";
+	Fin Segun
+FinProceso
