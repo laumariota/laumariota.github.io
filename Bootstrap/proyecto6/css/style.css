@@ -1,0 +1,5 @@
+@import url('https://fonts.googleapis.com/css2? family= Poppins:ital,wght@1,300 & display=swap');
+.banner-image {
+    background-image: url(../img/imagen2.jpg);
+    background-size: cover;
+}
